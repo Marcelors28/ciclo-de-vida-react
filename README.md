@@ -5,7 +5,7 @@ Este repositório faz parte das atividades do curso Dev Full Stack da MaisPraTi,
 ## Estrutura do Projeto
 
 A estrutura do projeto é desenvolvida em uma estrutura de pastas clara. Incluindo uma pasta components para armazenar os componentes criados em cada atividade, facilitando a navegação e a leitura do código.
-Foi criado uma página principal (App.js ou index.js) como menu para acessar cada atividade individualmente. Dessa forma, cada atividade pode ser testada separadamente sem interferir nas demais.
+Foi criado uma página principal como menu para acessar cada atividade individualmente. Dessa forma, cada atividade pode ser testada separadamente sem interferir nas demais.
 
 ## Estrutura de Pastas
 
@@ -44,7 +44,10 @@ ciclo-de-vida-react/
 ## Atividades desenvolvidas
 
   **1 - Atualização de Título com useEffect**: Atualizar o título da aba do navegador confrome o usuário interage com o componente.
-     
+
+   ![image](https://github.com/user-attachments/assets/6bb0999e-fdc9-41cd-b2d6-050d1207ad80)
+
+
    
 * number: Variável de estado que armazena o número, inicializada com 0.
 
@@ -62,6 +65,7 @@ decrement: Decrementa o valor de number em 1.
 
  **2 - Monitoramento de Largura da Janela**: Criar um componente que monitore e exiba a largura da janela do navegador, atualizando-se conforme a janela é redimensionada.
 
+ ![image](https://github.com/user-attachments/assets/1b59be3d-477d-4feb-aac6-57e3ee2119a8)
 
 
 * windowWidth: Variável de estado que armazena a largura atual da janela, inicializada com window.innerWidth.
@@ -80,7 +84,9 @@ Exibe a largura atual da janela em um elemento h1, centralizado na tela.
  
  **3 - Sincronização de Estado com Local Storage**: Sincronizar o estado de um componente com o Local Storage para manter dados entre as sessões do navegador.
 
+ ![image](https://github.com/user-attachments/assets/eb05b396-0813-46cb-ace1-cb1ea49cd818)
  
+
 * counter: Variável de estado que armazena o contador. Inicializa com o valor do Local Storage, se disponível, ou com 0 se não houver valor salvo.
 
 * Hook useEffect:
@@ -97,6 +103,9 @@ Adiciona botões para incrementar e decrementar o contador, com estilo básico a
 
 **4 - Relógio em Tempo Real**: Criar um relógio digital que atualiza a hora a cada segundo.
 
+![image](https://github.com/user-attachments/assets/fea72054-62df-40a0-a546-c4d28e90cdea)
+
+
 * currentTime: Variável de estado que armazena a hora atual, inicializada com o valor de new Date().
 
 * Hook useEffect:
@@ -107,8 +116,13 @@ Utiliza a função de limpeza (cleanup) para remover o intervalo quando o compon
 Exibe a hora atual formatada com toLocaleTimeString() em um elemento h1, centralizado na tela.
 
 
-
 **5 - Exibir/Mostrar Texto**: Criar um componente que alterna entre exibir e esconder um texto com o clique de um botão.
+
+![image](https://github.com/user-attachments/assets/30c06e8c-8cf1-47ad-a9d2-b7ba11bc4ff3)
+
+
+![image](https://github.com/user-attachments/assets/d1246f3e-c417-4c9c-8f05-09bca127975f)
+
 
 * isVisible: Variável de estado que armazena se o texto está visível ou não, inicializada como false.
 
@@ -121,7 +135,10 @@ Exibe o texto condicionalmente, apenas se isVisible for true.
 
 
 
-**6 - Contador com Limite**: Criar um contador que não ultrapasse um limite superior e que avise quando atingido..
+**6 - Contador com Limite**: Criar um contador que não ultrapasse um limite superior e que avise quando atingido.
+
+![image](https://github.com/user-attachments/assets/fa25fa06-fd5d-4a1d-bff6-261e35df8d6a)
+
 
 * counter: Variável de estado que armazena o valor do contador, inicializada com 0.
 
